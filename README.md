@@ -81,7 +81,7 @@ python qa/check_ui.py
 python qa/check_service.py
 ```
 
-Build the static frontend with `npm run build` from `frontend/`.
+Build the static frontend with `npm run build` from `frontend/`. The production bundle is written to the root `dist/` directory.
 
 ## Reference documentation
 

@@ -4,6 +4,7 @@ backend/runtime/
 backend/.env
 frontend/node_modules/
 frontend/dist/
+dist/
 *.log
 .openai/runtime/
 qa/*.png
