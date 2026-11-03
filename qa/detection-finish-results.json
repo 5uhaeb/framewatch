@@ -1,0 +1,7 @@
+{
+  "passed": [
+    "Real inference result is preserved after natural end, despite delayed response",
+    "Model flag renders on timeline and in moment list",
+    "Last processed timestamp and both raw scores are visible"
+  ]
+}

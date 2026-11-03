@@ -10,4 +10,6 @@ dist/
 qa/*.png
 qa/streams/
 qa/converted-sample.mp4
+qa/robbery*.mp4
+qa/short-detection.mp4
 
