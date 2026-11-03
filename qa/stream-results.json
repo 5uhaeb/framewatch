@@ -1,0 +1,8 @@
+{
+  "passed": [
+    "sample-with-audio.mp4 loads and plays, audio unmuted",
+    "streams/test.m3u8 loads and plays, audio unmuted",
+    "streams/test.mpd loads and plays, audio unmuted"
+  ],
+  "errors": []
+}

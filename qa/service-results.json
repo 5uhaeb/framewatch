@@ -1,0 +1,22 @@
+{
+  "health": {
+    "status": "ready",
+    "model": "MoBiLSTM / MobileNetV2 + BiLSTM",
+    "input_shape": [
+      16,
+      64,
+      64,
+      3
+    ],
+    "class_labels_verified": false,
+    "preprocessing_verified": false,
+    "error": null
+  },
+  "checks": [
+    "Invalid clips rejected",
+    "Unknown media rejected",
+    "FFmpeg converts actual video",
+    "Converted file has H.264 video and AAC audio",
+    "Byte-range playback returns 206"
+  ]
+}

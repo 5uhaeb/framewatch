@@ -1,0 +1,7 @@
+tensorflow==2.21.0
+fastapi>=0.115,<1
+uvicorn>=0.30,<1
+python-multipart>=0.0.18
+pillow>=11
+numpy>=2
+imageio-ffmpeg>=0.6

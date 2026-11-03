@@ -1,0 +1,22 @@
+{
+  "passed": [
+    "Dark default, wrong password feedback, demo password sign-in",
+    "Local file with unmuted audio; real model inference returns two scores",
+    "Manual marker, cached restore after refresh, timestamp seek, clear confirmation",
+    "Actual model-generated marker with adjustable class/threshold and temporary storage",
+    "Responsive 390px layout without horizontal overflow; working light theme"
+  ],
+  "predictions": [
+    {
+      "timestamp": 0.0,
+      "scores": [
+        0.9926151037216187,
+        0.007384858094155788
+      ],
+      "anomaly_score": 0.007384858094155788,
+      "anomaly_index": 1,
+      "mapping_verified": false
+    }
+  ],
+  "page_errors": []
+}
