@@ -23,7 +23,7 @@ function App(){
  const [source,setSource]=useState(null);const sourceRef=useRef(null);const fileRef=useRef(null);const localFile=useRef(null);const video=useRef(null);const objectUrl=useRef(null);const epoch=useRef(0);const requestRef=useRef(null);
  const [url,setUrl]=useState('');const [events,setEvents]=useState([]);const [duration,setDuration]=useState(0);const [position,setPosition]=useState(0);const [isPlaying,setIsPlaying]=useState(false);const [scanning,setScanning]=useState(false);const [sampling,setSampling]=useState(0);const [checked,setChecked]=useState(0);const [score,setScore]=useState(null);const [lastResult,setLastResult]=useState(null);
  const [notice,setNotice]=useState('');const [backend,setBackend]=useState({status:'checking'});const [converting,setConverting]=useState(false);const [dragging,setDragging]=useState(false);const [activeEvent,setActiveEvent]=useState(null);
- const [settings,setSettings]=useState(()=>({...{backend:'',threshold:0.8,index:1,preprocessing:'zero_one',playbackOnly:false},...read('framewatch:settings',{})}));
+ const [settings,setSettings]=useState(()=>({...{backend:import.meta.env.VITE_API_URL||'',threshold:0.8,index:1,preprocessing:'zero_one',playbackOnly:false},...read('framewatch:settings',{})}));
  const [draft,setDraft]=useState(settings);const [confirmClear,setConfirmClear]=useState(false);
  useEffect(()=>{document.documentElement.classList.toggle('dark',theme==='dark');try{localStorage.setItem('framewatch:theme',theme)}catch{}},[theme]);
  const api=(path)=>settings.backend?settings.backend.replace(/\/$/,'')+path:path;
